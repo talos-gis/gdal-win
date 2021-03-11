@@ -3,7 +3,7 @@ import os
 from setuptools import setup
 
 name = 'gdal'
-gdal_version = '3.2.1'
+gdal_version = '3.2.2'
 author = "Frank Warmerdam"
 author_email = "warmerdam@pobox.com"
 maintainer = "Howard Butler"
