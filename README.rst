@@ -1,20 +1,3 @@
-GDAL/OGR in Python for Windows
-================================
-
-This binary Python package of GDAL_ is available for easy installation on Windows.
-
-* Based on `Christoph Gohlke's GDAL wheels <https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal>`_
-* Essentially a merge of his `GDAL‑3.X.Y‑cp3*‑cp3*‑[win32|win_amd64].whl`
-  wheels to support multiple Python versions.
-* Currently supports Python 3.7-3.9 on Windows 32bit and 64bit.
-* gdalplugins
-    * You may add gdalplugins by adding their respective DLL files to the `gdalplugins` subdir.
-    * You may get plugin dlls from
-      `gisinternals <https://download.gisinternals.com/sdk/downloads/release-1911-dev.zip>`_.
-* Built with a custom `setup.py` file.
-* The reset of this README file was left unmodified including the installation
-  instruction which are relevant to the original gdal package.
-
 
 GDAL/OGR in Python
 ==================
@@ -230,4 +213,4 @@ data, this approach is expected to be prohibitively memory intensive.
 .. _Python Cheeseshop: http://pypi.python.org/pypi/GDAL/
 .. _val_repl.py: http://trac.osgeo.org/gdal/browser/trunk/gdal/swig/python/samples/val_repl.py
 .. _GDAL: http://www.gdal.org
-.. _SWIG: http://www.swig.org  
+.. _SWIG: http://www.swig.org
