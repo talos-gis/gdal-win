@@ -1,5 +1,7 @@
-cd win32
+pushd win32
 call ..\twine_build.bat
-cd ..
-cd win64
+popd
+
+pushd win64
 call ..\twine_build.bat
+popd
